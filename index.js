@@ -123,11 +123,16 @@ function MainContent() {
   return <h1>Hello Evidence, your fuirst react page</h1>;
 }
 
+function Secon() {
+  return <H1>BB London</H1>
+}
+
 ReactDOM.render(
   <div style={{ display: "flex", flexDirection: "row" }}>
     <MainContent />
     <Navbar />
     <MainContent />
+    <Secon />
   </div>,
   document.getElementById("lel")
 );
